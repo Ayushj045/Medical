@@ -20,9 +20,185 @@
         .myimg {
             width: 50px;
             height: 50px;
-            border: 2px solid black;
+            border: 1px solid black;
             border-radius: 25px;
         }
+        #box1 {
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 5px;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            transition: 0.3s;
+            border: none;
+            height: 250px;
+            width: 350px;
+        }
+        #box1:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+        }
+        #box1 > p {
+            font-weight: 400;
+            font-size: 16px;
+            margin-top: 5px;
+        }
+        #box1 > img {
+            border-radius: 8px;
+        }
+
+        #box2 {
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 5px;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            transition: 0.3s;
+            border: none;
+            height: 250px;
+            width: 350px;
+        }
+        #box2:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+        }
+        #box2 > p {
+            font-weight: 400;
+            font-size: 16px;
+            margin-top: 5px;
+        }
+        #box2 > img {
+            border-radius: 8px;
+        }
+
+        #box3 {
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 5px;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            transition: 0.3s;
+            border: none;
+            height: 250px;
+            width: 350px;
+        }
+        #box3:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+        }
+        #box3 > p {
+            font-weight: 400;
+            font-size: 16px;
+            margin-top: 5px;
+        }
+        #box3 > img {
+            border-radius: 8px;
+        }
+
+        #box4 {
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 5px;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            transition: 0.3s;
+            border: none;
+            height: 250px;
+            width: 350px;
+        }
+        #box4:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+        }
+        #box4 > p {
+            font-weight: 400;
+            font-size: 16px;
+            margin-top: 5px;
+        }
+        #box4 > img {
+            border-radius: 8px;
+        }
+        #box5 {
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 5px;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            transition: 0.3s;
+            border: none;
+            height: 250px;
+            width: 350px;
+        }
+        #box5:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+        }
+        #box5 > p {
+            font-weight: 400;
+            font-size: 16px;
+            margin-top: 5px;
+        }
+        #box5 > img {
+            border-radius: 8px;
+        }
+
+        #box6 {
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 5px;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            transition: 0.3s;
+            border: none;
+            height: 250px;
+            width: 350px;
+        }
+        #box6:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+        }
+        #box6 > p {
+            font-weight: 400;
+            font-size: 16px;
+            margin-top: 5px;
+        }
+        #box6 > img {
+            border-radius: 8px;
+        }
+
+        .result-container{
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            width: 100vw;
+        }
+
+
+        
 
 
 
@@ -113,12 +289,38 @@
 
     <div class="result-container">
         <!-- Buttons to toggle display -->
-        <button class="toggle-button" data-bs-toggle="modal" data-bs-target="#diseaseModal" style="padding:4px;  margin: 5px 40px 5px 0; font-size:20px;font-weight:bold; width:140px; border-radius:5px; background:#F39334;color:black;">Disease</button>
-        <button class="toggle-button" data-bs-toggle="modal" data-bs-target="#descriptionModal" style="padding:4px; margin: 5px 40px 5px 0; font-size:20px;font-weight:bold; width:140px; border-radius:5px; background:#268AF3 ;color:black;">Description</button>
-        <button class="toggle-button" data-bs-toggle="modal" data-bs-target="#precautionModal" style="padding:4px; margin: 5px 40px 5px 0; font-size:20px;font-weight:bold; width:140px; border-radius:5px; background:#F371F9 ;color:black;">Precaution</button>
-        <button class="toggle-button" data-bs-toggle="modal" data-bs-target="#medicationsModal" style="padding:4px; margin: 5px 40px 5px 0; font-size:20px;font-weight:bold; width:140px;border-radius:5px; background:#F8576F ;color:black;">Medications</button>
-        <button class="toggle-button" data-bs-toggle="modal" data-bs-target="#workoutsModal" style="padding:4px; margin: 5px 40px 5px 0; font-size:20px;font-weight:bold; width:140px; border-radius:5px; background:#99F741 ;color:black;">Workouts</button>
-        <button class="toggle-button" data-bs-toggle="modal" data-bs-target="#dietsModal" style="padding:4px; margin: 5px 40px 5px 0; font-size:20px;font-weight:bold; width:140px; border-radius:5px; background:#E5E23D;color:black;">Diets</button>
+        <button id="box1" class="toggle-button" data-bs-toggle="modal" data-bs-target="#diseaseModal" style="padding:4px;  margin: 5px 40px 5px 0; font-size:20px;font-weight:bold;  border-radius:5px;color:black;">
+            <img src="{{ url_for('static', filename='images/diseases.jpg') }}" width="100px" >
+            <span>
+                Disease
+            </span>
+            <p>Comprehensive database of diseases and symptoms.</p>
+        </button>
+        <button id="box2" class="toggle-button" data-bs-toggle="modal" data-bs-target="#descriptionModal" style="padding:4px; margin: 5px 40px 5px 0; font-size:20px;font-weight:bold; border-radius:5px ;color:black;">
+            <img src="{{ url_for('static', filename='images/discription.jpg') }}" width="100px" >
+            <span>Description</span>
+            <p>Detailed explanations of conditions and their causes.</p>
+        </button>
+        <button id="box3" class="toggle-button" data-bs-toggle="modal" data-bs-target="#precautionModal" style="padding:4px; margin: 5px 40px 5px 0; font-size:20px;font-weight:bold; border-radius:5px; color:black;">
+            <img src="{{ url_for('static', filename='images/precaution.jpg') }}" width="100px" >
+            <span>Precaution</span>
+            <p>Steps to avoid and manage health risks effectively.</p>
+        </button>
+        <button id="box4" class="toggle-button" data-bs-toggle="modal" data-bs-target="#medicationsModal" style="padding:4px; margin: 5px 40px 5px 0; font-size:20px;font-weight:bold;border-radius:5px ;color:black;">
+            <img src="{{ url_for('static', filename='images/medication.jpg') }}" width="100px" >
+            <span>Medication</span>
+            <p>Recommended medicines to treat specific diseases.</p>
+        </button>
+        <button id="box5" class="toggle-button" data-bs-toggle="modal" data-bs-target="#workoutsModal" style="padding:4px; margin: 5px 40px 5px 0; font-size:20px;font-weight:bold; border-radius:5px ;color:black;">
+            <img src="{{ url_for('static', filename='images/workout.jpg') }}" width="100px" >
+            <span>workout</span>
+            <p>Exercise plans to maintain a healthy body and mind.</p>
+        </button>
+        <button id="box6" class="toggle-button" data-bs-toggle="modal" data-bs-target="#dietsModal" style="padding:4px; margin: 5px 40px 5px 0; font-size:20px;font-weight:bold; border-radius:5px;color:black;">
+            <img src="{{ url_for('static', filename='images/diet.jpg') }}" width="100px" >
+            <span>Diet</span>
+            <p>Personalized dietary plans for better health outcomes.</p>
+        </button>
     </div>
 </div>
 
@@ -132,7 +334,7 @@
                     <h5 class="modal-title" id="diseaseModalLabel">Predicted Disease</h5>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
-                <div class="modal-body" style="background-color: #modal-body-color;"> <!-- Set modal body background color inline -->
+                <div class="modal-body" style="background-color: #020606;"> <!-- Set modal body background color inline -->
                     <p>{{ predicted_disease }}</p>
                 </div>
             </div>
